@@ -25,7 +25,7 @@ broadcast.dst = "ff:ff:ff:ff:ff:ff"
 request_broadcast = broadcast/request
 clients = scapy.srp(request_broadcast, timeout = 3, verbose=0)[0]
 print("Ip" + " "*32 + "Mac")
-ips = ["172.217.16.68"]
+ips = []
 for sent,received in clients:
 	print(f"{received.psrc}"+" "*18+f"{received.hwdst}")
 	ips.append(received.psrc)
