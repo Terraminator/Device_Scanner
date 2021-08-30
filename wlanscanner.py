@@ -25,6 +25,8 @@ if len(sys.argv) > 1:
 	if sys.argv[1] == "--pipe":
 		pipe = True
 		
+banner()
+
 if pipe != True:
 	print("You can also pipe the ips into Portscanner.py(https://github.com/Terraminator/Threaded_Portscanner)")
 	print("If you want to do this Portscanner.py must be in the same directory as this file!")
