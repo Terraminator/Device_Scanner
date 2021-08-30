@@ -3,6 +3,10 @@ Scan for Devices in you Wlan network
 You may have to change the router Ip and /24 to for example /22 or others you need  
 You can also pipe the output ips of this File into the Portscanner "Portscanner.py"
 
+
+## Ascii Art  
+The Ascii Art is made with: https://patorjk.com/software/taag/
+
 ### Disclaimer
 This software is only intended for learning purposes and I do not take any responsibility for misuse. 
 This repository is for academic purposes, the use of this software is your responsibility.
