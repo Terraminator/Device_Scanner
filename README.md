@@ -1,10 +1,21 @@
 # Device_Scanner
+<pre>
+
+____    __    ____  __          ___      .__   __.      _______.  ______     ___      .__   __. .__   __.  _______ .______      
+\   \  /  \  /   / |  |        /   \     |  \ |  |     /       | /      |   /   \     |  \ |  | |  \ |  | |   ____||   _  \     
+ \   \/    \/   /  |  |       /  ^  \    |   \|  |    |   (----`|  ,----'  /  ^  \    |   \|  | |   \|  | |  |__   |  |_)  |    
+  \            /   |  |      /  /_\  \   |  . `  |     \   \    |  |      /  /_\  \   |  . `  | |  . `  | |   __|  |      /     
+   \    /\    /    |  `----./  _____  \  |  |\   | .----)   |   |  `----./  _____  \  |  |\   | |  |\   | |  |____ |  |\  \----.
+    \__/  \__/     |_______/__/     \__\ |__| \__| |_______/     \______/__/     \__\ |__| \__| |__| \__| |_______|| _| `._____|
+</pre>
 Scan for Devices in you Wlan network  
+
+### Usage
 You may have to change the router Ip and /24 to for example /22 or others you need  
-You can also pipe the output ips of this File into the Portscanner "Portscanner.py"
+You can also pipe the output ips of this File into the Portscanner "Portscanner.py" you just have to run this file with args --pipe  
+The Portscanner.py has to be in the same Folder as this File then you can just run Portscanner.py an it will scan all the ips of your Network
 
-
-## Ascii Art  
+### Ascii Art  
 The Ascii Art is made with: https://patorjk.com/software/taag/
 
 ### Disclaimer
