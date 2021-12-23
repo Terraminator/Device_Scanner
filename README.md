@@ -11,7 +11,7 @@ ____    __    ____  __          ___      .__   __.      _______.  ______     ___
 Scan for Devices in you Wlan network  
 
 ### Usage
-You may have to change the router Ip and /24 to for example /22 or others you need  
+You may have to change the router Ip and /24 to for example /22 (Your subnet).
 You can also pipe the output ips of this File into the Portscanner "Portscanner.py" you just have to run this file with args --pipe  
 <pre> python3 Portscanner.py --pipe </pre>
 The Portscanner.py has to be in the same Folder as this File then you can just run Portscanner.py an it will scan all the ips of your Network
